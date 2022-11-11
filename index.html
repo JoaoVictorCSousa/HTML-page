@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<style>
+
+.imagem{
+    min-height: 100%;
+    background-image: url("assets/images/coringa.jpg");
+    background-size: cover;
+}
+
+</style>
 <head>
 <!-- Charset é para padronificar o sistema de linguagem(converter números e símbolos) Ex: Japones e Português -->
     <meta charset="UTF-8">   
@@ -8,47 +17,57 @@
     <!-- Para que o nosso site consiga se encaixar de acordo com a largura que têm a disposição, se ajusta a tela-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Representa duas informações: Titulo da Página e que o titulo é mostrado na guia do navegador -->
-    <title>Home</title>
+   <br> <br> <title>The Jokers</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <!-- Cabeçalho do site  -->
-    <header>
+    <header >
         <nav>
-            <ul>
-                <li>
+            <ul><br>  
+                
+                <li class="nav-button"> 
                     <a href="index.html">Home</a>
                 
                 </li>
-                <li>
+                <li class="nav-button">
                    <a href="contato.html">Contato</a> 
                 </li>
-                <li>
+                <li class="nav-button"> 
                     <a href="tabela.html">Seja um Joker</a>
                 </li>
             </ul>
         </nav>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Nosifer&family=Sofia&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+        <!-- /NavBar -->
     </header>
 <!-- /Cabeçalho do site -->
 
 <!-- Corpo principal do site -->
 <main>
-    <section>
+    <section class="container">
         <div>
-            <h1> Coringa </h1>
-            <p>
+            <br>
+            <br>
+            <h1 id="titulo">   Coringa </h1>
+            <p class="texto mb-5">
                 Que tal outra piada, Murray?
 O que você ganha quando cruza com um solitário doente mental abandonado pela sociedade que o trata como lixo?
 Eu vou te dizer o que você ganha! Você ganha a porr@ que merece!"
             </p>
-            <p>
+            <p class="texto mb-5">
                 Se você é bom em alguma coisa, nunca a faça de graça.
             </p>
-            <p>
+            <p class="texto mb-5">
                 Não leve a vida muito a sério, você não vai sair vivo dela. Às vezes a vida é dura. Você recebe choques e mais choques, e parece que querem derrubar o mundo sobre sua cabeça. Por isso, sempre sorria! Se tiver que morrer, morra sorrindo! Se tiver que matar, mate sorrindo!
             </p>
+            <!-- <img class="borda" src="assets/images/coringa1.jpg" alt="joker" width="200px"> -->
         </div>
         <div>
-            <img width="300" src="https://i.imgur.com/XGplR01.jpeg" alt="Meu mano coringa!">
+            <!-- <img class="photo" src="https://i.imgur.com/XGplR01.jpeg" alt="Meu mano coringa!"> -->
         </div>
     </section>
 
@@ -60,22 +79,22 @@ Eu vou te dizer o que você ganha! Você ganha a porr@ que merece!"
 <footer>
     <div>
         <a target="_blank" href="https://pt.wikipedia.org/wiki/Joker_(DC_Comics)">
-            <img width="100" src="assets/images/coringa4.jpg" alt="wikipedia">
+            <img  class="social" src="assets/images/coringa4.jpg" alt="wikipedia">
          </a>
 
          <a target="_blank" href="https://www.jogos360.com.br/joker_forever.html">
-            <img width="100" src="assets/images/coringa.jpg" alt="Jogo do Coringa">
+            <img class="social" src="assets/images/coringa.jpg" alt="Jogo do Coringa">
          </a>
 
          <a target="_blank" href="https://www.youtube.com/watch?v=Jf4TjELjNwQ">
-            <img width="100" src="assets/images/coringa1.jpg" alt="coringa trailer">
+            <img class="social" src="assets/images/coringa1.jpg" alt="coringa trailer">
         </a>
         </div>
 
         <div>
-            <p>
+            <div class="rodape">
                 Coringa 'The Joker'. Todos os direitos reservados! Não copie, sujeito a consequências GRAVES!
-            </p>
+            </div>
         </div>
 </footer>
 </body>
