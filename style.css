@@ -82,6 +82,17 @@ li{
     border-radius: 30px;
      }
 
+     .nav-button_contato{
+        background: green;
+        font: medium;
+        margin: 2px;
+        border: 3px solid purple;
+        padding: 15px;
+        transition: 0.5s;
+        border-radius: 30px;
+        
+         }
+
 
         
         
@@ -129,3 +140,43 @@ borda{
     border-radius: 20px;
     width: 50px;
 }
+
+#titulo2 {
+    background-color:purple;
+    color: rgba(5, 57, 5, 0.888);
+    border: 3px solid black;
+    padding: 8px;
+    margin:50px;
+    width: 22%;
+    border-radius: 30px;
+    font-family: 'Nosifer', cursive;
+    font-size: large;
+
+
+}
+
+.mb-6{
+    margin-bottom: 5px;
+    background-color: green;
+    padding:5px;
+    font-family: 'Sofia', cursive;
+    border-radius: 20px;
+}
+
+mapa{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.nav-button_tabela{
+    background: green;
+    font: x-large;
+    margin: 30px;
+    border: 3px solid purple;
+    padding: -3px;
+    transition: 0.5s;
+    border-radius: 150px;
+    font-family: 'Nosifer', cursive;
+
+     }
+
